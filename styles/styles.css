@@ -1,0 +1,58 @@
+:root {
+  --main-header-color: #289988;
+  --subheader-color: #43a080;
+  --form-color: #ffc844;
+  --header-font-color: #fff;
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-family);
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin top: 0;
+}
+
+
+
+ul {
+  list-style: none;
+  padding left: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main.header {
+  background-color: var(--main-header-color);
+  
+}
+
+button {
+  border: none;
+  font: inherit;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+label {
+  font: inherit
+}
+
